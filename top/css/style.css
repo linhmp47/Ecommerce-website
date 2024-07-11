@@ -1,0 +1,59 @@
+/******************** Header *********************/
+
+header {
+    background: #eee;
+    height: 55px;
+}
+
+.Menu {
+    display: flex;
+}
+
+.Menu-branch {
+    align-items: center;
+    background: #e11b1e;
+    display: flex;
+    height: 55px;
+}
+
+.Menu-branch__logo {
+    width: 55px;
+}
+
+.Menu-branch__logo img {
+    object-fit: cover;
+}
+
+.Menu-branch-search {
+    align-items: center;
+    background: #fff;
+    border-radius: 3px;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    overflow: hidden;/*Cai nao ngoai thang cha se bi an*/
+}
+
+.Menu-branch-search-location {
+    align-items: center;
+    background: #ccc;
+    display: flex;
+    font-size: 13px;
+    height: 100%;
+    justify-content: center;
+    width: 100px;
+}
+
+.Menu-branch-search-input {
+    padding: 0 5px;
+}
+
+.Menu-branch-search-btn {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 13px;
+    height: 100%;
+    justify-content: center;
+    width: 35px;
+}

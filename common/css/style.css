@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100%;
   }
   
   body {
@@ -52,10 +53,10 @@
 
   @media screen and (max-width: 1024px) {
     .only-pc {
-        display: none !important;
+        display: none;
     }
     .only-sp {
-        display: block !important; 
+        display: block; 
     }
   }
   
